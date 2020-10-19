@@ -1,0 +1,34 @@
+.issueListItem{
+    height: 10%;
+    padding: 2%;
+    border-bottom:1px solid grey;
+}
+
+.issueLink{
+    text-decoration: none;
+    color: blue;
+}
+
+.issueList{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.issueItemContent{
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    border: 1px solid grey;
+    margin: 2%;
+}
+
+.label{
+    width: auto;
+    height: 2em;
+    display: flex;
+    flex-wrap: row wrap;
+    border-radius: 2em;
+    align-items: center;
+    justify-content: center;
+}
